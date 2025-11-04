@@ -536,13 +536,65 @@ summary {
         width: 100%;
         border-right: none;
         border-bottom: 1px solid #ddd;
+        padding: 10px 0;
+    }
+    
+    .menu-item {
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    .top-bar {
+        padding: 10px 15px;
+        flex-wrap: wrap;
+    }
+    
+    .navbar-logo img {
+        height: 30px;
+    }
+    
+    .breadcrumb-title {
+        font-size: 14px;
     }
     
     .info-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .info-item {
+        border-right: none;
+        border-bottom: 1px solid #e0e0e0;
+        padding: 15px;
+    }
+    
+    .info-item:last-child {
+        border-bottom: none;
     }
     
     .form-row-inline, .form-grid {
         grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .consultar-section {
+        padding: 15px;
+    }
+    
+    .cpf-box {
+        padding: 10px 15px;
+    }
+    
+    .center-btn {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .center-btn button {
+        width: 100%;
+    }
+    
+    .content {
+        padding: 10px;
     }
 }
