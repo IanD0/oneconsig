@@ -15,6 +15,7 @@ COPY . /var/www/html/
 # Configurar permissões
 RUN chown -R www-data:www-data /var/www/html \
     && chmod -R 755 /var/www/html \
+    && mkdir -p /var/www/html/uploads \
     && chmod 777 /var/www/html/uploads
 
 # Copiar configurações
