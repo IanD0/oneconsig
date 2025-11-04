@@ -546,7 +546,23 @@ summary {
     
     .top-bar {
         padding: 10px 15px;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    
+    .navbar-left {
+        gap: 10px;
+        flex-shrink: 0;
+    }
+    
+    .navbar-right {
+        gap: 8px;
+        flex-shrink: 0;
+        margin-left: auto;
+    }
+    
+    .navbar-right span {
+        display: none;
     }
     
     .navbar-logo img {
