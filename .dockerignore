@@ -1,0 +1,13 @@
+.git
+.gitignore
+*.csv
+*.sql
+uploads/*.csv
+ROBERTA (3).sql
+usuarios.sql
+1a15_JULHO_ENTRANTES.csv
+entrantesroberta.csv
+exemplo_importacao_correto.csv
+exemplo_importacao.csv
+modelo_entrantes_20251028_185144.csv
+modelo_entrantes2.csv
